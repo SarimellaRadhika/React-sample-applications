@@ -1,0 +1,20 @@
+.card{
+    padding-top: 10px;
+    color:rgb(22, 107, 68);
+    background-color:rgb(175, 238, 230);
+    height:220px;
+    width:220px;
+    margin: 10px;
+    float: left;
+    display: table-cell;
+}
+.add-item{
+    border: 1px;
+}
+.cart{
+    float: left;
+}
+.maindiv{
+padding-left: 300px;
+background-color: aliceblue;
+}

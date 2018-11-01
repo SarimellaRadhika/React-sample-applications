@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+  font-size: 1em;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+.welcome{
+font-size: 2em;
+}
+.App-header {
+  background-color: #222;
+  height: 50px;
+  padding: 20px;
+  color: white;
+}
+.right-panel{
+  float:right;
+}
+.App-title {
+  font-size: 1.5em;
+}
+
+
+.App-intro {
+  font-size: large;
+}
+
+.sidenav{
+height:100%;
+width:100px;
+position: fixed;
+z-index: 1;
+top:10;
+left:0;
+background-color: #111;
+color: whitesmoke;
+overflow-x: hidden;
+padding-top: 20px;
+}
+.sidenav :Link{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.search{
+  background-image: url("./search.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 20px,20px;
+}
+.searched_item{
+  float: right;
+  padding-right: 200px;
+  color: black;
+  font-size: 16px;
+}
+img{
+  height:40px;
+  widows: 40px;
+  align-self: left;
+}
+.search-location{
+  background-image: url("./sear.ico");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 20px,20px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
