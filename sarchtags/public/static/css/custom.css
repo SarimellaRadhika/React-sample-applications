@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar-default .navbar-toggle{ display:none !important} /* hide mobile navigation bars*/
+.mobile-nav{ display:none; margin-right:8px;}
+.mobile-nav a{ border-radius:0px !important;}
+.profile{ line-height:15px  !important; font-size:12px !important; width:180px; padding-top:10px !important; padding-bottom:10px !important;}
+
+
+@media(max-width:990px){
+ 
+	 .mobile-nav li a.icon{ padding:8px 5px !important} 
+		.mobile-nav li.dropdown a{ padding:normal!important;}
+	.mobile-nav .fa{  font-size: 19px !important;}
+	.navbar-brand > img.logo{ width:55px !important; margin:0px !important;}
+	.navbar.bg{ min-height:auto !important; }
+	.navbar-brand{ padding:6px !important; height:auto !important;}
+}
+
+@media(max-width:767px){
+	.mobile-nav{ display:block !important;}
+}
+
+
+.navbar-brand > img.logo {
+		display: block;
+		margin: -9px;
+		width: 98px;
+	}
+
+
+
+
+.footer{ background-color:#b7b7b7; position:fixed; bottom:0px; width:100%; text-align:center;}
+.footer p{ margin:0px !important; font-size:12px; padding:5px 0px;}
+
+
+.cart-badge{ position:absolute !important; left:22px; top:6px;}
+.cart{ font-size:18px !important}
+
+
+.primary-badge{background-color:#ffde00 !important; color:#000; font-size:10px !important; font-weight:normal !important; text-shadow:none !important;} 
+.secondary-badge{background-color:#fff !important; color:#000; font-size:10px !important; font-weight:normal !important; text-shadow:none !important;}
+
+
+
+.color-theme{ background-color:#007ac4; color:#fff;}
+.button-theme-1{ background-color:#007ac4; color:#fff;}
+.button-theme-2{ background-color:#007ac4; color:#fff;}

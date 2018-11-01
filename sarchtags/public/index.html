@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+        <title>Conversation New Design</title>
+        <!-- Bootstrap -->
+        <script src="https://use.fontawesome.com/e329cc523e.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet" />
+        <link  href="./static/font-awesome/css/font-awesome.css" rel="stylesheet" />
+        <link  href="./static/css/glyphicons.css" rel="stylesheet">
+        <link href="./static/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="./static/css/nav.min.css"  rel="stylesheet" />
+        <link href="./static/css/theme1.css"  rel="stylesheet" />
+        <link href="./static/css/comman.min.css"  rel="stylesheet" />
+        <link rel="stylesheet"  href="./static/css/layout.min.css" />
+        <link rel="stylesheet" href="./static/css/bootstrap-select.css" />
+        <link rel="stylesheet" href="./static/css/jquery.scrolling-tabs.css" />
+        <link rel="stylesheet" href="./static/css/scrolling-tabs.css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+        <link href="./static/css/bootstrap-tokenfield.css" type="text/css" rel="stylesheet" />
+        <link href="./static/css/developer.min.css"  rel="stylesheet" />
+        <link href="./static/css/view-ticket.css"  rel="stylesheet" />
+        <link href="./static/css/global.css"  rel="stylesheet" />
+        <link href="./static/css/standard-library.css"  rel="stylesheet" />
+        <link href="./static/css/widgets.css"  rel="stylesheet" />
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="./static/css/spilt-panel-responsive.css" />
+        <link rel="stylesheet" href="./static/css/pretty-split-pane.css" />
+        <!-- it is plugin for colum adjustments -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
+        <script src="./static/js/split-pane.js"></script>
+        <script>
+            $(function() {
+            	$('div.split-pane').splitPane();
+            	/*$('button:first').on('click', function() {
+            		$('div.split-pane').splitPane('lastComponentSize', 10);
+            	});
+            	$('button:last').on('click', function() {
+            		$('div.split-pane').splitPane('firstComponentSize', 0);
+            	});
+            	*/
+            });
+        </script>
+    </head>
+    <body>
+        <!-- header -->
+        <header>
+            <nav class="navbar navbar-default theme-nav">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <div class="global-search-area">
+                                    <div class="global-search">
+                                        <label for="search-input"><i class="fa fa-search" aria-hidden="true"></i></label>
+                                        <input   class="search-input form-control" placeholder="Search" autocomplete="off" spellcheck="false" autocorrect="off" tabindex="1">
+                                        <a href="#" class="global-search-clear" aria-hidden="true">X</a>
+                                    </div>
+                                    <div class="global-search-list" style="display:none;">
+                                        <div class="global-search-items">
+                                            <span class="global-search-items-title"><i class="fa fa-search" aria-hidden="true"></i> All Channels</span>
+                                            <a href="#" title="ACME Inc." >
+                                                <div class="media">
+                                                    <div class="media-body">
+                                                        <p># ACME Inc.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#"  title="Auction Services" >
+                                                <div class="media">
+                                                    <div class="media-body">
+                                                        <p># Auction Services</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" title="Bj Inc." >
+                                                <div class="media">
+                                                    <div class="media-body">
+                                                        <p># Bj Inc.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="global-search-line"></div>
+                                            <div class="global-search-line"></div>
+                                            <span class="global-search-items-title"><i class="fa fa-search" aria-hidden="true"></i> All People</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="dropdown theme-profile">
+                                <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                <img src="./static/images/profile-img.jpg" alt="Elite Networks Inc" class="theme-avatar avatar-1" /> <span class="theme-welcome-message">Welcome, John Marconi<br /><span class="company-title">Elite Networks, Inc. </span><span class="caret"></span></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../Theme-1-1-settings.html" title="Settings">Settings</a></li>
+                                    <li><a href="#" title="Another action">Another action</a></li>
+                                    <li><a href="#" title="Something else here">Something else here</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#" title="Separated link">Separated link</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </header>
+        <!-- above closed header -->
+        <div class="main">
+            <div class="main-container">
+                <!-- below div for responsive colum adjustment -->
+                <div class="pretty-split-pane-frame">
+                    <!-- This div is added for styling purposes only. It's not part of the split-pane plugin. -->
+                    <div class="split-pane fixed-left">
+                        <div class="split-pane-component adjust-colum-left" id="">
+                            <div class="pretty-split-pane-component-inner">
+                                <div class="chat-container">
+                                    <div class="theme-contentbox">
+                                        <div class="theme-chat-block">
+                                            <div class="theme-chat">
+                                                <!-- chat section title -->
+                                                <!-- chat section title close-->
+                                                <!--main chatbox  content -->
+                                                <div class="chatreplies threads-section">
+                                                    <div   class="mainchat-flex">
+                                                    </div>
+                                                </div>
+                                                <!-- main chatbox end -->
+                                            </div>
+                                        </div>
+                                        <!-- replies section -->
+                                        <div class="threadinside threadinside-window ">
+                                            <div class="theme-chat-reply" >
+                                                <div class="theme-chat-replies">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- replies will close above -->
+                                        <!-- direct messages window section started, it will work through jquery directmessages-open -->
+                                        <!-- direct messages window section started close above -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="split-pane-divider adjust-colum-divider" ></div>
+                        <div class="split-pane-component adjust-colum-right"  >
+                            <div class="pretty-split-pane-component-inner">
+                                <div class="workarea-container">
+                                    <div class="workarea-inside">
+                                        <div class="dynamicbox with-chat ">
+                                            <!-- title for dynamic content area -->
+                                            <div id="root"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>-
+            </div>
+        </div>
+        <script src="./static/js/jquery-ui.min.js"></script>
+        <script src="./static/js/bootstrap.min.js" ></script>
+        <link rel="stylesheet" href="../static/css/jquery-ui.min.css" />
+        <script src="./static/js/jquery.scrolling-tabs.js"></script>
+        <script src="./static/js/ui-scrolling-tabs.js"></script>
+        <script src="./static/js/ui-common.js"></script>
+        <script src="./static/js/drag-drop-accrodion.js"></script>
+        <link rel="stylesheet"  href="./static/css/bootstrap-tagsinput.css" />
+        <script type="text/javascript" src="./static/js/bootstrap-tagsinput.js" ></script>
+        <script src="./static/js/bootstrap-select.js"></script>
+        <script src="./static/js/jquery.slimscroll.js"></script>
+        <script type="text/javascript" src="./static/js/jquery.slimscroll.js"></script>
+        <script src="./static/js/ui-dropdowns-effects.js" type="text/javascript"></script>
+        <script src="./static/js/jquery-1.js" type="text/javascript"></script>
+        <script src="./static/js/ui-layout.js" type="text/javascript"></script>
+        <script type="text/javascript" src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+        <script src="./static/js/mobile-desktop-switches.js" type="text/javascript"></script>
+        <script type="text/javascript"  src="./static/js/smooth-scrollbars.js"></script>
+        <script type="text/javascript"  src="./static/js/ui-theme.js"></script>
+        <link rel="stylesheet" href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css" />
+        <script>// basic popovers
+            $(document).ready(function(){
+
+                $('[data-toggle="popover"]').popover({
+                    trigger : 'focus',
+            		placement : 'top'
+
+                });
+
+
+
+            });
+
+            /*
+            $(document).ready(function(){
+            $('.threadinside-window-open').click(function(){
+                var heightTest = $(".get-refresh").innerHeight();
+
+
+
+
+                if (heightTest >= 100) {
+
+                alert(heightTest);
+
+                $(".mainchat-flex").removeClass("oneline").addClass("secline");
+                }
+                else if  (heightTest <= 100){
+
+                $(".mainchat-flex").addClass("oneline").removeClass("oneline");
+                }
+              }
+            });
+            */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </script>
+    </body>
+</html>
+</script>
+</body>
+</html>

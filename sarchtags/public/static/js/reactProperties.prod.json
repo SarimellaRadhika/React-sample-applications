@@ -1,0 +1,9 @@
+{
+"baseUrl": "http://localhost:8000",
+"appUrl": "http://localhost:4000",
+"authUrl" : "http://localhost:8433",
+"automationUrl" : "http://localhost:8507",
+"bundle_version": "bundle.js?version=10.1.9",
+"instance":"dev",
+"assessmentUrl": "http://localhost:8011"
+}

@@ -1,0 +1,8 @@
+.table{
+    border-style:groove;
+    border-color:darkslateblue;
+    width:25px;
+    height: 25px;
+    background-color: aquamarine;
+    display: inline-block;
+}

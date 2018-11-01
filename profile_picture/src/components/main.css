@@ -1,0 +1,41 @@
+.chatbox{
+    height: 400px;
+    width: 300px;
+    background-color:aquamarine;
+    margin: 30px;
+    padding-top: 20px;
+    margin-left: 30px;
+    overflow:scroll;
+    gap:10;
+}
+/* .outer{
+    background-color:"green";
+    padding:5;
+    display:"grid";
+    gap:30;
+    margin:30;
+} */
+.user1Msg{
+    position: relative;
+    width: 70%;
+    background-color:white;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    float: right;
+    color: crimson;
+    display: flex;
+}
+
+.user2Msg{
+    position: relative;
+    width: 70%;
+    background-color:white;
+    color: blueviolet;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    float: left;
+    display: flex;
+}
+

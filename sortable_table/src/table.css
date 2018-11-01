@@ -1,0 +1,10 @@
+.table{
+   text-align: center;
+   padding-left: 500px;
+   padding-top: 8px;
+}
+
+.head{
+    background-color: dimgray;
+    color: whitesmoke
+}

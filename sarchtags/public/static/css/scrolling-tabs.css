@@ -1,0 +1,132 @@
+
+@media screen and (max-width: 800px) {
+	.scrtabs-tabs-fixed-container { max-width:100% !important; }
+}
+/*.scrolltabs{ border-bottom:solid 1px #fff;}*/
+.nav-tabs.scrolltabs > li{ height:60px; text-align:center !important} 	 .nav-tabs.scrolltabs li  a{ color:#000 !important;}
+ 
+
+.mobile-view .nav-tabs.scrolltabs > li.active > a{ background-color:#fff;  font-weight:bold; border:solid 1px #ccc !important;
+	 border-bottom:solid 1px #fff !important; z-index: 1;  float: none; margin: 0px auto;
+	}
+
+
+
+ 
+.nav-tabs.scrolltabs > li.active > a{ height:62px !important; background-color:#fff;  font-weight:bold; border:solid 1px #ccc !important; border-bottom:solid 1px #fff !important; z-index: 1;border-radius: 0px;}
+ 
+.nav-tabs.scrolltabs > li > a:hover{ height:65px !important; background-color:#bbbbbb;}
+.nav-tabs.scrolltabs > li > a{border:0px !important }
+.nav-tabs.scrolltabs { border:none !important;float: left;display: -webkit-box;}
+
+ul.flex-tabs{float: none!important}
+ul.flex-tabs li{-webkit-box-flex: 1;}
+
+.scrolltabs span.label{ display: block;
+	padding: 2px 5px;
+	max-width: 97px;
+	margin: auto;
+	font-size: 11px;
+	font-weight: normal !important; }
+
+	.scrtabs-tab-container * {
+		box-sizing: border-box;
+	}
+
+
+	/* line 17, jquery.scrolling-tabs.scss */
+	.scrtabs-tab-container {
+		height: 61px;
+		width:100%;
+		/*border-bottom: solid 1px #ccc;*/
+	}
+	/* line 19, jquery.scrolling-tabs.scss */
+	.scrtabs-tab-container .tab-content {
+		clear: left;
+	}
+
+	/* line 24, jquery.scrolling-tabs.scss */
+	.scrtabs-tabs-fixed-container {
+		float: left;
+		height: 60px;
+		overflow: hidden;
+		width: 94% !important;
+
+
+	}
+
+	/* line 31, jquery.scrolling-tabs.scss */
+	.scrtabs-tabs-movable-container {
+		position: relative;
+	}
+	/* line 33, jquery.scrolling-tabs.scss */
+	.scrtabs-tabs-movable-container .tab-content {
+		display: none;
+	}
+
+	/* line 38, jquery.scrolling-tabs.scss */
+	.scrtabs-tab-scroll-arrow {
+	/*	border: 1px solid #dddddd; */
+		border-top: none;
+		background:transparent !important;
+		background-color:transparent !important;
+		color: #000;
+		cursor: pointer;
+		display: none;
+		float: left;
+		font-size: 12px;
+		height: 60px;
+		margin-bottom: -1px;
+		    padding-left: 4px;
+		padding-top: 20px;
+		width: 3%;
+		text-align: center !important;
+	 
+		/* background-color:#c2c2c2; */
+	}
+	/* line 51, jquery.scrolling-tabs.scss */
+	.scrtabs-tab-scroll-arrow:hover {
+		background-color: #eeeeee;
+	}
+
+	/* line 56, jquery.scrolling-tabs.scss */
+	.scrtabs-tab-scroll-arrow.scrtabs-disable {
+		color: #9b9b9b;
+		cursor: default;
+	}
+
+	/* line 61, jquery.scrolling-tabs.scss */
+	.scrtabs-tabs-fixed-container ul.nav-tabs > li {
+		white-space: nowrap;
+		width:20%;
+	}
+
+	 /*.nav-tabs.scrolltabs,
+	.tab-content {
+		display: none;
+	}*/
+
+	.st-demo-header {
+		background-color: #666666;
+		color: white;
+		font-size: 24px;
+		padding: 8px 24px;
+	}
+
+	.st-demo-header button {
+		color: black;
+		font-size: 12px;
+	}
+
+	.st-demo-subheader {
+		background-color: #f0f0f0;
+		color: #333;
+		font-size: 16px;
+		height: 65px;
+		margin-top: 50px;
+		padding: 8px 24px;
+	}
+
+	.st-demo-subheader:first-child {
+		margin-top: 0;
+	}

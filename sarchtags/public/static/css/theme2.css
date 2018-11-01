@@ -1,0 +1,90 @@
+body{background-color:#554F4C !important;}
+.left-aside{ background-color:#554F4C !important;}
+.left-aside .nav-pills.theme-clientslist>li.active>a {background-color:#F27D00 !important; font-weight: bold;}
+.left-aside .nav-pills.theme-clientslist>li.active>a:hover {background-color:#F27D00 !important;color:#fff!important;}
+.left-aside .nav-pills.theme-clientslist>li>a:focus{ background-color: #F27D00!important;}
+.left-aside .nav-pills.theme-clientslist>li>a:hover {color:#F27D00!important;}
+.theme-nav .navbar-collapse .navbar-nav > li.theme-profile > a { padding: 6px 20px !important;}
+.theme-nav .navbar-collapse .navbar-nav > li > a{
+	padding: 10px 20px 9px !important; margin: 3px 0 0 0; display: inline-block!important;
+	border: solid 1px transparent;
+}
+.theme-nav .navbar-collapse .navbar-nav>.active>a{
+    background-color:transparent!important;	color:#fff!important; display: inline-block!important;
+	font-weight: 500; border-top: 4px solid #F27D00; margin: 0;
+}
+.theme-nav .navbar-collapse .navbar-nav > li > a:hover,
+.theme-nav .navbar-collapse .navbar-default .navbar-nav > li > a:focus,
+.theme-nav .navbar-collapse .navbar-default .navbar-nav > li > a:hover,
+.theme-nav .navbar-collapse .nav .open > a,
+.theme-nav .navbar-collapse .nav .open > a:focus {
+	background-color:transparent;
+	color:#fff !important;
+	border-radius: 2px;
+	display: inline-block!important;
+	border-top: 4px solid #F27D00;
+	z-index: 2!important;
+	margin:0;
+}
+.directmessages .open-directmessages{background-color: #fff;}
+.directmessages .btn-default{border:none!important;}
+.directmessages .btn-default:hover{	background-color: #F27D00;	color: #fff;}
+.directmessages .btn-default.focus, .directmessages .btn-default:focus, .directmessages .btn-default.dir-open{
+	background-color: #F27D00; color:#fff;}
+.directmessages .btn-default.dir-close{	background-color:#fff!important; color:#000!important;}
+.with-chat .theme-left-bottom, .without-chat .theme-left-bottom{background-color:#37312D!important;}
+/*.theme-thread .theme-thread-status-colors-2{	background-color: #84B8E3!important;}
+.theme-settings-leftmenu.accordion li.open .link{background-color: #F27D00!important; font-weight: bold;}
+.sublinks{background-color: #52A5BA!important; border-bottom: none!important;}
+.sublinks a{ color:#000!important;}*/
+.theme-settings-leftmenu .sublinks a:hover{	color:#fff!important; background:#37312D;}
+.theme-settings-leftmenu .sublinks a.active{ color: #fff !important;	background-color: #F27D00;}
+.left-aside .theme-left-bottom a:hover{	background-color: #554F4C !important;}
+.left-aside .leftbar-action:hover{background-color: #464646 !important;}
+.left-aside .mytasks ul.datewise > li span.Mytasks-sublink a:hover{	color: #fff!important;}
+.left-aside .theme-clientslist>li>a, .left-aside .theme-clientslist div > li > a{
+    background-image: linear-gradient(to right, transparent 50%, #3f566e 50%) !important;
+}
+.left-aside .theme-section-search .open>.dropdown-toggle.btn-default:hover{
+	color:#F27D00!important;
+}
+.theme-nav .navbar-nav>.active>a span.company-title, .theme-nav .navbar-nav>.active>a span.theme-welcome-message{
+	background-color: none;	/*color:#F27D00!important;*/
+}
+.left-aside .directmessages .media.active{ background-color: #ccdce9!important;}
+/*.left-aside .theme-settings-leftmenu.accordion li.open .link{background-color: #F27D00;}*/
+
+/****************** Work Modes *******************/
+.theme2 .left-tabbable { background-color: #544F4C;}
+.theme2 .left-tabbable .left-tabmenu{background-color:#36312D;}
+.theme2 .left-tabbable.tabs-left .left-tabmenu li a{background-color: #544F4C;}
+.theme2 .left-tabbable.tabs-left .left-tabmenu li a:hover,
+.theme2 .left-tabbable.tabs-left .left-tabmenu li a:focus { background-color: #544F4C; color: #fff;}
+.theme2 .left-tabbable .tab-content{background-color: #544F4C;}
+.theme2 .left-tabbable.tabs-left .left-tabmenu .active a,
+.theme2 .left-tabbable.tabs-left .left-tabmenu .active a:hover,
+.theme2 .left-tabbable.tabs-left .left-tabmenu .active a:focus { background-color: #F27D00;}
+.theme2 .direct-message-container .media:hover { background-color: #36312D;}
+.theme2 .direct-message-container .media.active { background-color: #F27D00;}
+.theme2 .direct-message-container .badge.count{background-color: #36312D;}
+.theme2 .queues-list li a.active { background-color: #F27D00!important;}
+/*.theme2 .queues-list>li>a, .queues-list div > li > a {
+	background-image: linear-gradient(to right, transparent 50%, #36312D 50%);
+}
+.theme2 .channel-list>li>a, .channel-list div > li > a{
+	background-image: linear-gradient(to right, transparent 50%, #36312D 50%);
+}*/
+.theme2 .channel-list li a.active{background-color: #F27D00!important;}
+.theme2 .channel-list .badge.count{background-color:#36312D;}
+.theme2 .queues-list .badge.count{background-color:#36312D;}
+/*.theme2 .filters-list li a{background-image: linear-gradient(to right, transparent 50%, #36312D 50%);}*/
+.theme2 .mytask-list .badge.count{background-color: #36312D;}
+/*.theme2 .mytask-list>li, .theme2 .mytask-list div > li{
+	background-image: linear-gradient(to right, transparent 50%, #36312D 50%)
+}*/
+.theme2 .filters-list li a.active{background-color: #F27D00!important;}
+.theme2 .queues-list>li>a:hover{background-color: #36312D;}
+.theme2 .filters-list>li>a:hover{background-color: #36312D;}
+.theme2 .channel-list>li>a:hover{background-color: #36312D;}
+.theme2 .mytask-list>li:hover{background-color: #36312D;}
+.theme2 .Masp-Channel{background-color: #544F4C;}

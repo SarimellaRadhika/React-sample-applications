@@ -1,0 +1,84 @@
+
+/*SLA Compliance Graph CSS*/
+.slaCompliance path {
+  stroke: #fff;
+  stroke-width: 2px;
+}
+.slaComplianceFont {
+  /* fill: #999;
+  font-size : 15px; */
+  fill: #888888;
+  font-size:14px;
+  /* font-family: "Comic Sans MS"; */
+}
+.slaComplianceFontCount{
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1D212A;
+  line-height: 33px;
+}
+/* State of conversation */
+.stateOFConversaionFontPercentage{
+  font-size: 20px;
+  font-weight: lighter;
+  color: #1D212A;
+  line-height: 33px;
+}
+.stateOfConvGraphFont {
+  font-size: 10px;
+  fill: #999;
+}
+.radial-progress {
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.margin-top-anchor{
+  padding-bottom: 8px !important;
+  margin-top: -33px !important;
+}
+.margin-bt-title-whiteColor{
+  margin-bottom: 15px !important;
+  color : #fff
+}
+.margin-bt-title{
+  margin-bottom: 15px !important;
+
+}
+.servicemap-widget-container-width{
+  width: 100%;
+  height: 30%;
+  overflow: hidden;
+
+}
+.servicemap-widget-container{
+  width: 98%;
+  height: 30%;
+  overflow: hidden;
+
+}
+.serviceMap-widget {
+  background: url("../../static/images/service_map_bg.png");
+}
+.theme-thread .media-body .outagelogo {
+	float: right;
+	padding-right: 5px;
+}
+.serviceMapTextCSS {
+  overflow: hidden;
+    color: #fff;
+    width: 100px;
+    height: 37px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+}
+.conv-box .data-bar-wrap .data-value .chart span.yellow-value {
+    background-color: #fab200;
+    border: none;
+}
+.slaGraphForConv{
+  position:absolute; font-size:16px;left: 50%;
+  top: 50%;
+  width: 100%;
+}

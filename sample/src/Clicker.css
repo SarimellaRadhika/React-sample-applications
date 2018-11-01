@@ -1,0 +1,14 @@
+.clicker {
+    height: 500px;
+    width: 500px;
+    margin: 5 auto;
+
+}
+
+.clicker-display {
+    height: 100px;
+}
+
+.clicker-button{
+    height:50px;
+}

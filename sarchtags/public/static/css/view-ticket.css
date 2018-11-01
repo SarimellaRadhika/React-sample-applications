@@ -1,0 +1,108 @@
+.view-ticket-messages .timeline::before/*!
+ 
+*/ 
+
+.main-messages{width: 800px; margin:auto;}  .message-title{margin-top:30px;padding-top:10px;font-weight:700;font-size:14px} .view-ticket-messages .task{border-bottom:1px solid #e4e5e6;margin-bottom:1px;position:relative}.view-ticket-messages .task .desc{display:inline-block;width:75%;padding:10px 10px;font-size:12px}.view-ticket-messages .task .desc .title{font-size:18px;margin-bottom:5px}.view-ticket-messages .task .time{display:inline-block;width:15%;padding:10px 10px 10px 0;font-size:12px;text-align:right;position:absolute;top:0;right:0}.view-ticket-messages .task .time .date{font-size:18px;margin-bottom:5px}.view-ticket-messages .task.last{border-bottom:1px solid transparent}.view-ticket-messages .task.high{border-left:2px solid #f86c6b}.view-ticket-messages .task.medium{border-left:2px solid #f8cb00}.view-ticket-messages .task.low{border-left:2px solid #4dbd74}.view-ticket-messages .timeline{width:auto;height:100%;margin:20px auto;position:relative}.view-ticket-messages .timeline:before{position:absolute;content:'';height:100%;width:4px;background:#ebebeb;left:18px;margin-left:-2px}.view-ticket-messages .timeslot{display:inline-block;position:relative;width:100%; padding-left:8%;margin:5px 0}.view-ticket-messages .timeslot .task{position:relative;width:100%;display:block;border:none;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}.view-ticket-messages .timeslot .task span{-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;border:1px solid #c0c0c0;background:#ebebeb;padding:10px;display:block;font-size:13px}.view-ticket-messages .timeslot .task span span.details{font-size:16px;margin-bottom:10px}.view-ticket-messages .timeslot .task span span.remaining{font-size:14px}.view-ticket-messages .timeslot .task span span{border:0;background:0 0;padding:0}.view-ticket-messages .timeslot .task .arrow{position:absolute;top:6px;right:0;height:20px;width:20px;border-left:12px solid #bfbfbf;border-top:12px solid transparent;border-bottom:12px solid transparent;margin-right:-18px}.view-ticket-messages .timeslot .task .arrow:after{position:absolute;content:'';top:-12px;right:3px;height:20px;width:20px;border-left:12px solid #ebebeb;border-top:12px solid transparent;border-bottom:12px solid transparent}
+.view-ticket-messages .timeslot .icon{display: block; position:absolute; -webkit-border-radius:50em;-moz-border-radius:50em;border-radius:50em;height:30px;width:30px;top:10px;left:20px;margin-left:-17px;color:#fff;font-size:14px;line-height:30px;text-align:center;text-shadow:none;z-index:2;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}.view-ticket-messages .timeslot .time{background:#d1d4d7;position:absolute;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;top:1px;left:50%;padding:5px 10px 5px 40px;z-index:1;margin-top:1px}
+
+.view-ticket-messages .timeslot.arrow-left .task{margin-left:0;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}
+
+
+
+
+
+
+.view-ticket-messages .timeslot.arrow-left .task .arrow{
+    border-color: transparent #bfbfbf transparent currentcolor;
+    border-style: solid solid solid none;
+    border-width: 12px 12px 12px medium;
+    height: 20px;
+    left: 0;
+    margin-left: -20px;
+    position: absolute;
+    top: 14px;
+    width: 21px;
+}
+
+
+.view-ticket-messages .timeslot.arrow-left .task .arrow:after{top:-12px;left:3px;height:20px;width:20px;border-left:none;border-right:12px solid #ebebeb;border-top:12px solid transparent;border-bottom:12px solid transparent}.view-ticket-messages .timeslot.arrow-left .time{top:1px;left:auto;right:50%;padding:5px 40px 5px 10px}  
+
+.view-ticket-messages .task .title { font-weight: 700; font-size: 14px; }
+.view-ticket-messages .task .message { font-weight: 500; }
+.view-ticket-messages .timeslot .task p{font-size: 13px ; color:#000;}
+.view-ticket-messages h2 {
+    color: #707070;
+    font-size: 21px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.view-ticket-messages .forwarded-block{ display:block; font-weight:400 !important; padding:5px 3px; margin:10px 0px; color:#52555f !important; background-color:#f0f0f0; border-bottom:1px   solid #dedede !important; border-top:1px solid #dedede !important; }
+/* .view-ticket-messages .timeslot .icon img {
+    min-width: 30px;
+    max-width: 30px;
+
+    border-radius: 50px;
+    border: solid 1px #ccc;
+    min-height: 30px;
+    height: 30px;
+    max-height: 30px;
+    overflow: hidden;
+}*/
+.d-block{ display:block !important}
+
+
+/************************* window information *******************/
+.view-messages.chatwindow .timeslot.arrow-left .task{margin: 0 16px;
+    width: 300px;}
+.view-messages.chatwindow .timeslot .icon{
+   background-color: #e1e1e1;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    box-sizing: content-box;
+    color: #000;
+    font-size: 10px !important;
+    height: 18px;
+    left: 10px;
+    line-height: 18px;
+    padding: 0 2px;
+    width: 42px;
+    }
+
+.view-messages.chatwindow .timeslot .task span {
+    background: none !important;
+    border: 0px !important;
+    border-radius: 0px !important;
+    padding: 10px 6px 1px !important; font-size:  !important;
+}
+.view-messages.chatwindow .timeslot .task span  span{  padding: 0px !important; color: #838383 !important; font-size: 12px !important}
+ 
+.view-messages.chatwindow .timeslot.arrow-left .task .arrow:after,.view-messages.chatwindow .timeslot.arrow-left .task .arrow{ display: none !important;  }
+
+.view-messages.chatwindow h2{border-bottom: 1px solid #959595;     color: #000;    font-size: 14px;    font-weight: 600;
+    line-height: 24px;
+    margin: 17px 0;
+}
+
+.circleicon-i-info{  font-family: 'Zilla Slab', serif;
+ font-size:18px; color: #7e7e7e; height: 20px !important; width: 20px !important; line-height: 17px !important; border: 1px solid #7e7e7e !important; display: inline-block; text-align: center; -webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px; margin: 0px 4px !important;}
+.circleicon-i-info.left-link{border:solid 1px #fff !important; color: #000; line-height: 15px; height: 17px !important; width: 17px !important; font-size: 13px !important;}
+.view-messages.chatwindow .timeslot .task p{font-size: 12px !important;}
+.badge.pull-right.icon-info{
+background-color: transparent !important;
+    color: #000 !important;
+    font-family: "Zilla Slab",serif !important;
+    font-size: 12px !important;
+    font-style: italic !important;
+    margin-right: 5px;
+    width: 18px;
+}
+
+li.active a .badge.pull-right.icon-info{ display: none }
+li.active a:hover .badge.pull-right.icon-info{ display: block !important; }
+li a .badge.pull-right.icon-info{ display: none !important; }
+/* =====================================  */
+.ticket-detail .avatars{margin-bottom:0px;}

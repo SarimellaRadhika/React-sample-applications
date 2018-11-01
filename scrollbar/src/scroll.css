@@ -1,0 +1,18 @@
+.pn-ProductNav_Wrapper {
+    position: relative;
+}
+.pn-Advancer_Left {
+    left: 0;
+    [data-overflowing="both"] ~ &,
+    [data-overflowing="left"] ~ & {
+        opacity: 1;
+    }
+}
+
+.pn-Advancer_Right {
+    right: 0;
+    [data-overflowing="both"]  ~ &,
+    [data-overflowing="right"] ~ & {
+        opacity: 1;
+    }
+}

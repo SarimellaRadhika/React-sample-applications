@@ -1,0 +1,89 @@
+body{background-color:#325071 !important;}
+.left-aside{background-color:#325071 !important;}
+.left-aside .nav-pills.theme-clientslist>li.active>a{background-color:#0F96BE !important; font-weight: bold;}
+.left-aside .nav-pills.theme-clientslist>li.active>a:hover{background-color:#0F96BE !important;color: #fff !important;}
+.left-aside .nav-pills.theme-clientslist>li>a:focus{background-color: #0F96BE!important;}
+.left-aside .nav-pills.theme-clientslist>li>a:hover {color:#0F96BE!important;}
+.theme-nav .navbar-collapse .navbar-nav > li.theme-profile > a {padding: 6px 20px !important;}
+.theme-nav .navbar-collapse .navbar-nav > li > a{
+	padding: 10px 20px 9px !important;  margin: 3px 0 0 0;  display: inline-block!important;
+    border: solid 1px transparent;
+}
+.theme-nav .navbar-collapse .navbar-nav>.active>a{
+    background-color:transparent!important;	color:#fff !important; display: inline-block!important;
+	font-weight: 500; border-top: 4px solid #0F96BE; margin: 0;
+}
+.theme-nav .navbar-collapse .navbar-nav > li > a:hover,
+.theme-nav .navbar-collapse .navbar-default .navbar-nav > li > a:focus,
+.theme-nav .navbar-collapse .navbar-default .navbar-nav > li > a:hover,
+.theme-nav .navbar-collapse .nav .open > a,
+.theme-nav .navbar-collapse .nav .open > a:focus {
+	background-color:transparent;
+	color:#fff !important;
+	border-radius: 2px;
+	display: inline-block!important;
+	border-top: 4px solid #0F96BE;
+	z-index: 2!important;
+	margin:0;
+}
+.directmessages .open-directmessages{background-color: #fff;}
+.directmessages .btn-default{border:none!important;}
+.directmessages .btn-default:hover{	background-color: #0F96BE;	color: #fff;}
+.directmessages .btn-default.focus, .directmessages .btn-default:focus, .directmessages .btn-default.dir-open{
+	background-color: #0F96BE;	color:#fff;}
+.directmessages .btn-default.dir-close{	background-color:#fff!important; color:#000!important;}
+.with-chat .theme-left-bottom, .without-chat .theme-left-bottom{background-color:#1F3650!important;}
+/*.theme-thread .theme-thread-status-colors-2{background-color: #92dbd8!important;}*/
+/*.theme-settings-leftmenu.accordion li.open .link{background-color: #0F96BE!important; font-weight: bold;}*/
+/*.sublinks{	background-color: #86c1b2!important; border-bottom: none!important;}
+.sublinks a{color:#000!important;}*/
+.theme-settings-leftmenu .sublinks a:hover{	color:#fff!important; background:#1F3650;}
+.theme-settings-leftmenu .sublinks a.active{color: #fff !important;	background-color: #0F96BE;}
+.left-aside .theme-left-bottom a:hover{	background-color: #325071 !important;}
+.left-aside .leftbar-action:hover{background-color: #464646 !important;}
+.left-aside .mytasks ul.datewise > li span.Mytasks-sublink a:hover{	color: #fff!important;}
+.left-aside .theme-clientslist>li>a, .left-aside .theme-clientslist div > li > a{
+    background-image: linear-gradient(to right, transparent 50%, #0f1216 50%) !important;
+}
+.left-aside .theme-section-search .open>.dropdown-toggle.btn-default:hover{
+	color:#0F96BE!important;
+}
+.theme-nav .navbar-nav>.active>a span.company-title, .theme-nav .navbar-nav>.active>a span.theme-welcome-message{
+	background-color: none;	/*color:#0F96BE!important;*/
+}
+.left-aside .directmessages .media.active{	background-color: #cce9e8!important;}
+/*.left-aside .theme-settings-leftmenu.accordion li.open .link{background-color: #0F96BE;}*/
+
+/****************** Work Modes *******************/
+.theme1 .left-tabbable{background-color: #325071;}
+.theme1 .left-tabbable .left-tabmenu{background-color:#1F3650;}
+.theme1 .left-tabbable.tabs-left .left-tabmenu li a{background-color: #325071;}
+.theme1 .left-tabbable.tabs-left .left-tabmenu li a:hover,
+.theme1 .left-tabbable.tabs-left .left-tabmenu li a:focus { background-color: #325071; color: #fff;}
+.theme1 .left-tabbable .tab-content{background-color: #325071;}
+.theme1 .left-tabbable.tabs-left .left-tabmenu .active a,
+.theme1 .left-tabbable.tabs-left .left-tabmenu .active a:hover,
+.theme1 .left-tabbable.tabs-left .left-tabmenu .active a:focus { background-color: #0F96BE;}
+.theme1 .direct-message-container .media:hover { background-color: #23354F;}
+.theme1 .direct-message-container .media.active { background-color: #0F96BE;}
+.theme1 .direct-message-container .badge.count{background-color: #23354F;}
+.theme1 .queues-list li a.active { background-color: #0F96BE !important;}
+/*.theme1 .queues-list>li>a, .queues-list div > li > a {
+	background-image: linear-gradient(to right, transparent 50%, #23354f 50%);
+}
+.theme1 .channel-list>li>a, .channel-list div > li > a{
+	background-image: linear-gradient(to right, transparent 50%, #23354f 50%);
+}*/
+.theme1 .channel-list li a.active{background-color: #0F96BE!important;}
+.theme1 .channel-list .badge.count{background-color:#23354F;}
+.theme1 .queues-list .badge.count{background-color:#23354F;}
+/*.theme1 .filters-list li a{background-image: linear-gradient(to right, transparent 50%, #23354f 50%);}*/
+.theme1 .mytask-list .badge.count{background-color: #23354F;}
+/*.theme1 .mytask-list>li, .theme1 .mytask-list div > li{
+	background-image: linear-gradient(to right, transparent 50%, #1F3650 50%)
+}*/
+.theme1 .filters-list li a.active{background-color: #0F96BE!important;}
+.theme1 .queues-list>li>a:hover{background-color: #23354f;}
+.theme1 .filters-list>li>a:hover{background-color: #23354f;}
+.theme1 .channel-list>li>a:hover{background-color: #23354f;}
+.theme1 .mytask-list>li:hover{background-color: #23354f;}

@@ -1,0 +1,12 @@
+.channel-list>li>a, .channel-list div > li > a {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    padding: 2px 2px 2px 10px !important;
+    color: red;
+    text-decoration: none;
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, transparent 50%, #23354f 50%);
+   /* transition: background-position 0.4s;*/
+    width: 100%;
+}

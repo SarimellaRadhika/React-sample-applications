@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  
+  color: white;
+}
+
+.App-title {
+  font-size: 2em;
+}
+
+.App-intro {
+  font-size: large;
+}
+#header{
+  background-color:gray;
+  height: 100px;
+  padding-top:10px;
+}
+
+.m
+{
+  background-image: url("timer.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
